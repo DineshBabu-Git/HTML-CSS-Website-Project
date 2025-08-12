@@ -1,2 +1,2 @@
 
-This is my First HTML CSS Website Creation Task Project that has been assigned by my Coaching Center 
+This is the first HTML and CSS website creation project assigned by the coaching center
