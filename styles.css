@@ -1,0 +1,1010 @@
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    span{
+    color:#FA7436;
+    }
+
+    html, body
+    {
+        margin:0 auto;
+        padding:0;
+        font-family: "Poppins", sans-serif;
+        background-color: #F7F8FC;
+        overflow-x: hidden;
+    }        
+
+    .container
+    {
+        margin:0 auto;
+        padding:0;
+        width: 100%;
+    }
+
+    .header
+    {
+        margin:0 auto;
+        padding:0;
+        background-color:#FEFCFB;        
+    }
+
+    .header_section
+    {
+        margin:0 auto;
+        padding:0;
+        display: grid;
+        height:100px;
+        grid-template-columns:1fr 1fr 1fr;
+        align-items:center;
+        max-width:1920px;
+        gap:7em;   
+    }
+
+    .logo
+    {
+        margin:0;
+        padding:0;
+        justify-self:end;
+    }
+
+    .logo_img
+    {     
+        margin:0;
+        padding:0;
+    }
+
+    .nav_menus
+    {
+        margin:0;
+        padding:0;
+        justify-self:center;         
+    }
+
+    .nav_menus ul
+    {            
+        margin:0 auto;
+        padding:0;
+    }
+
+    .nav_menus li
+    {
+        padding:10px;
+        display:inline-block;
+        position: relative;
+    }
+
+    .nav_menus li a            
+    {
+        margin:0;
+        padding:0;
+        color:#000;
+        text-align:center;
+        text-decoration:none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        transition: all 0.3s ease;
+    }
+
+    .nav_menus li a:hover, .footer_menu li a:hover
+    {
+        color: #FA7436;
+    }    
+
+/* .nav_menus ul li ul {
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0.7em !important;
+  left: 0;
+  display: none;
+}
+
+.nav_menus ul li:hover > ul,
+.nav_menus ul li:focus-within > ul,
+.nav_menus ul li ul:hover,
+.nav_menus ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+.nav_menus ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0;   
+  margin: 2px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;  
+  border-top: 6px solid #000;
+  display: inline-block;
+} */
+    
+    /* .sub_menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.sub_menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.sub_menu > li:hover { background: #CCCCCC; } */
+
+    .login_section
+    {
+        margin:0;
+        padding:0;
+        justify-self:start;
+    }
+
+    .login_button {
+    margin:0px 15px 0px 0px;
+    color:#FA7436; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; 
+    }
+
+    .signup_button{
+    margin:0px 0px 0px 15px;
+    background-color:#FA7436; 
+    color: #FFF;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 120px; 
+    transition: all 0.3s ease; 
+    }
+
+    .signup_button:hover, .discover_button:hover, .explore_button:hover, .subscribe_button:hover {
+    background-color:#FA7436; 
+    color: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(250, 116, 54, 0.5);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(250, 116, 54, 0.5);
+-moz-box-shadow: 0px 0px 15px 0px rgba(250, 116, 54, 0.5);
+    }
+
+    .hero_section
+    {
+        margin:0 auto;
+        padding:3em 0px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: 1fr 0.5fr;
+        align-items: center;
+        background-color:#FEFCFB;
+        max-width:1920px; 
+    }  
+        
+    .hero_section_left
+    {
+        margin:0;
+        padding:0;
+        grid-column: span 2 / span 2;
+  justify-self: end;
+  align-self: end;
+    }  
+
+    .hero_title
+    {
+        margin:0;
+        padding:0;
+        font-family: "Volkhov", serif;
+        font-weight: bold;
+        font-size: 3.4em;
+        font-style: normal;
+        color: #000;
+        max-width: 100%;
+        box-sizing: border-box;
+        width: 500px;
+        line-height: 1.2em;
+  justify-self: end;
+  text-shadow: 0px 3px 4px rgba(0,0,0,0.6);
+    }    
+
+    .hero_message
+    {
+        margin:0;
+        padding:30px 0px 50px 0px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400; 
+        color:#555;
+        line-height:2em;
+        max-width: 400px;
+  justify-self: end;
+    }    
+
+    .discover_button {
+    margin:0;
+    background-color: #FFF;
+    color: #FA7436;
+    padding: 16px 0px;
+    border: 1px solid #FA7436;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    width: 160px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    transition: all 0.3s ease; 
+    }  
+
+    .hero_section_right
+    {
+        margin:0;
+        padding:0;
+        grid-column: span 2 / span 2;
+        grid-column-start: 3;
+        justify-self: start;
+} 
+
+    .hero_image
+    {
+        margin:0;
+        padding:0;
+    }
+
+    .hero_image img
+    {
+        margin:0 auto;
+        padding:0;
+        max-width: 100%;
+        height: auto;
+        display:block;
+        width: 700px;
+    }   
+                     
+    .button_section
+    {
+        margin:0;
+        padding:0;
+    } 
+
+    .hero_search_section
+    {
+        margin: 0 auto;
+        padding:26px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: clamp(10px, 3vw, 20px); 
+        box-sizing: border-box;
+        grid-column: span 2 / span 2;
+        grid-column-start: 2;
+        align-items: center;
+        background-color:#FFF; 
+        box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+        display: flex;
+        flex-wrap: wrap;
+        border-radius:10px;
+
+    } 
+
+    .search_location
+    {
+        margin: 0 auto;
+        padding:0;
+        font-weight: bold;
+    }
+
+    .search_location, .search_date, .search_guest
+    {
+        margin: 0 ;
+        padding:0;
+        width:160px;
+        max-width: 100%;
+         box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.8em;
+    }
+
+    .search_sub
+    {
+        margin: 0;
+        padding:0;
+        font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:12px;
+        color:#555;
+    }        
+
+    .explore_button {
+    margin:0;
+    background-color:#FA7436; 
+    color: #FFF;
+    padding: 16px 0px;
+    border: 1px solid #FA7436;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    width: 160px; 
+    transition: all 0.3s ease; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+    } 
+
+
+.things_section
+    {
+        margin:0 auto;
+        padding:5em 0 4em 0;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center; 
+    }  
+
+.things_title, .exclusive_title, .best_vacation_title, .blog_section_title
+    {
+        margin:0 auto;
+        padding:0;
+        font-family: "Volkhov", serif;
+        font-weight: 700;
+        font-size: 3em;
+        font-style: normal;
+        color: #000;
+        justify-self: center; 
+    }
+
+.things_title img, .best_vacation_title img
+    {
+        margin:0;
+        padding:0 50px;
+        position:absolute;
+    }
+
+    .things_message, .exclusive_message, .best_vacation_message
+    {
+        margin:0 auto;
+        padding:0.2em 0 2em 0;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400; 
+        color:#555;
+        line-height:2em;
+        text-align: center;
+        max-width: 425px;
+    }
+
+    .things_catagories
+    {
+        margin:2em auto;
+        padding:0;
+        display: grid;
+        grid-template-columns:repeat(3, auto);
+        align-items: center; 
+    }
+
+    .things_signup
+    {
+        margin: 0 20px;
+        padding:35px;
+        max-width: 300px;
+        max-height: 200px;
+        background-color:#FFF; 
+        background-image:url("./icons/signup_vector.png");
+        background-size: cover;
+    box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+        transition:all 0.3s ease;
+    }
+
+    .things_worthmoney
+    {
+        margin: 0 20px;
+        padding:35px;
+        max-width: 300px;
+        max-height: 200px;
+        background-color:#FFF; 
+        background-image:url("./icons/worth_money_vector.png");
+        background-size: cover;
+    box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+        transition:all 0.3s ease;
+    }
+
+    .things_travel
+    {
+        margin: 0 20px;
+        padding:35px;
+        max-width: 300px;
+        max-height: 200px;
+        background-color:#FFF; 
+        background-image:url("./icons/travel_vector.png");
+        background-size: cover;
+    box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+        transition:all 0.3s ease;
+    }
+
+    .things_signup h3, .things_worthmoney h3, .things_travel h3
+    {
+        margin: 0;
+        padding: 30px 0px 20px 0px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .things_signup p, .things_worthmoney p, .things_travel p
+    {
+        margin: 0;
+        padding: 0;
+        font-weight: 400; 
+        color:#555;
+    }
+    
+    .things_signup:hover, .things_worthmoney:hover, .things_travel:hover
+    {
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+    }    
+
+
+    .exclusive_section, .best_vacation_section, .blog_section
+    {
+        margin:0 auto;
+        padding:5em 0 4em 0;
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        background-color:#FEFCFB;
+    }
+
+    .exclusive_catagories, .best_vacation_catagories, .blog_catagories
+    {
+        margin:2em auto;
+        padding:0;
+        display: grid;
+        grid-template-columns:repeat(4, auto);
+        grid-template-rows:repeat(3, auto);
+        align-items:center; 
+    }
+
+    .exclusive_deal
+    {
+        margin: 0 10px;
+        padding:0;
+        max-width: 270px;
+        max-height: 476px;
+        background-color:#FFF;         
+        display: grid;
+        border-radius:10px;
+        border: 2px solid #EEE;
+        grid-template-rows:repeat(2, auto);
+    box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+transition:all 0.3s ease;
+    }
+
+    .destination_info
+    {       
+        margin:0;
+        padding:20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .destination_name h3
+    {       
+        margin:0;
+        padding:0;
+        justify-self:start;
+        font-weight:500;
+        font-size: 22px;
+    }
+
+    .rating
+    {       
+        margin:0;
+        padding:0;
+        color: #777;
+        justify-self:end;
+        align-self: center;
+    }
+
+    .main_location
+    {       
+        margin:0;
+        padding:7px 0px;
+        justify-self:start;
+        color: #777;
+    }
+
+    .price
+    {       
+        margin:0;
+        padding:7px 0px;
+        justify-self:end;
+    }
+
+    .old_price
+    {       
+        font-weight:500;
+        color: #999;
+        padding:0px 5px;
+        text-decoration: line-through;
+    }
+
+    .new_price
+    {       
+        font-weight:600;
+        color:#FA7436;
+        background-color:#FFE7DB;
+        border-radius: 5px;
+        padding:3px 5px;
+    }
+    
+    .exclusive_deal:hover
+    {
+    box-shadow: 0px 0px 35px 0px rgba(250, 116, 54, 0.3);
+-webkit-box-shadow: 0px 0px 35px 0px rgba(250, 116, 54, 0.3);
+-moz-box-shadow: 0px 0px 35px 0px rgba(250, 116, 54, 0.3);
+    }
+
+    .exclusive_slider_section
+    {       
+        margin:0;
+        padding:7px 0px;
+        justify-self:center;
+    }
+
+    .booknow_button {
+    margin:0;
+    background-color:#FA7436; 
+    color: #FFF;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 130px; 
+    transition: all 0.5s ease; 
+    position:absolute;
+    align-self: center;
+    justify-self: center;
+    opacity: 0;
+    }
+
+    .exclusive_deal:hover .booknow_button {
+    opacity: 1;
+    z-index: 2;
+    }
+
+    .exclusive_deal img {
+    transition: all 0.5s ease;
+    }
+
+    .exclusive_deal:hover img {
+    filter: brightness(60%);
+    }
+
+
+    .best_vacation_plan
+    {
+        margin: 0 10px;
+        padding:0;
+        max-width: 370px;
+        max-height: 447px;
+        background-color:#FFF;         
+        display: grid;
+        border-radius:16px;
+        border: 2px solid #EEE;
+        grid-template-rows:repeat(2, auto);
+    box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(238, 238, 238, 1);transition:all 0.3s ease;
+    }
+
+    .best_vacation_info
+    {       
+        margin:0;
+        padding:20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .vacation_name h3
+    {       
+        margin:0;
+        padding:0;
+        justify-self:start;
+        font-weight:500;
+        font-size: 22px;
+    }
+
+    .vacation_price
+    {       
+        margin:0;
+        padding:0;
+        justify-self:end;
+        font-weight:600;
+        font-size: 22px;
+        color:#FA7436;
+    }
+
+    .trip_days
+    {       
+        margin:0;
+        padding:7px 0px;
+        justify-self:start;
+        color: #555;
+    }
+    
+    .best_vacation_plan:hover
+    {
+    box-shadow: 0px 0px 35px 0px rgba(250, 116, 54, 0.3);
+-webkit-box-shadow: 0px 0px 35px 0px rgba(250, 116, 54, 0.3);
+-moz-box-shadow: 0px 0px 35px 0px rgba(250, 116, 54, 0.3);
+    }
+
+    .best_vacation_slider_section
+    {       
+        margin:0;
+        padding:0;
+        justify-self:center;
+        position:relative;
+        left:33em;
+    }
+
+
+    .testimonial_section
+    {
+        margin:0 auto;
+        padding:3em 0px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));grid-template-rows: 1fr 0.2fr;
+        align-items: center;
+        max-width:1920px; 
+    }  
+        
+    .testimonial_left
+    {
+        margin:0;
+        padding:0;
+        grid-column: span 2 / span 2;
+        justify-self: end;
+        align-self: center;
+    }  
+
+    .testimonial_title
+    {
+        margin:0;
+        padding:0;
+        font-family: "Volkhov", serif;
+        font-weight: 700;
+        font-size: 3em;
+        font-style: normal;
+        color: #000;
+        max-width: 100%;
+        box-sizing: border-box;
+        width: 570px;
+        line-height: 1.2em;
+        justify-self: end;
+    }    
+
+    .testimonial_message
+    {
+        margin:0;
+        padding:30px 0px 50px 0px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400; 
+        color:#555;
+        line-height:2em;
+        max-width: 450px;
+        justify-self: end;
+    }    
+
+    .testimonial_slider {
+        margin:0;
+        padding:0;
+    }  
+
+    .testimonial_right
+    {
+        margin:0;
+        padding:0;
+        grid-column: span 2 / span 2;
+        grid-column-start: 3;
+        justify-self: start;
+} 
+
+    .testimonial_image
+    {
+        margin:0;
+        padding:0;
+    }
+
+    .testimonial_image img
+    {
+        margin:0 auto;
+        padding:0;
+        max-width: 100%;
+        height: auto;
+        display:block;
+        width: 700px;
+    } 
+
+
+
+
+
+    .blog_section
+    {
+        margin:0 auto;
+        padding:5em 0 4em 0;
+        display:grid;
+        grid-template-rows: 0.3fr 1fr 0.2fr;
+        align-items: center;
+        background-color:#FEFCFB;
+    }
+    .new_blog
+    {
+        margin: 0 10px;
+        padding:0;
+        max-width: 270px;
+        max-height: 388px;
+        background-color:#FFF;
+        border-radius:16px;        
+        display: grid;
+        grid-template-rows:repeat(3, auto);
+    }
+
+    .new_blog_info
+    {       
+        margin:0;
+        padding:25px 0px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .new_blog_message h4
+    {       
+        margin:0;
+        padding:0;
+        font-weight:500;
+        font-size: 18px;
+        max-width: 250px;
+        justify-self:start;
+    }
+
+    .new_blog_date
+    {       
+        margin:0;
+        padding:20px 0px;
+        color: #999;
+        justify-self:start;
+    }
+
+    .blog_slider_section
+    {       
+        margin:0;
+        padding:0;
+        justify-self:center;
+    }
+
+    
+
+    .subscribe_section {
+    margin: 0 auto;
+    padding: 5em 1em 4em 1em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center; 
+    background: url("./images/subscribe_box.png") no-repeat center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.subscribe_title {
+    margin: 0 auto 0.5em;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: clamp(1.5em, 4vw, 3em);
+    color: #FFF;
+    max-width: 90%;
+}
+
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+}
+
+.input_wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.subscribe_form input {
+    width: 100%;
+    padding: 1em 8em 1em 3em; 
+    font-size: 16px;
+    background: url("icons/email_icon.png") no-repeat 3% center;
+    background-color: #FFF;        
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;       
+    min-width: 600px;  
+    max-width: 750px;
+}
+
+.subscribe_form input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.subscribe_button {
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    transform: translateY(-50%);
+    background-color: #FA7436; 
+    color: #FFF;
+    padding: 7px 14px;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+
+    .footer_section
+    {
+        margin:0 auto;
+        padding:5em 0 0 0;
+        display: grid;
+        grid-template-columns:1fr 0.2fr 0.2fr 0.4fr;
+        max-width: 1920px;
+    }
+
+    .footer_info
+    {       
+        margin:0;
+        padding:0;
+        justify-self: center;
+        max-width: 35%;
+    }
+
+    .footer_message
+    {       
+        margin:0;
+        padding:20px 0px 20px 0px;
+        color: #666;
+    }
+
+    .footer_social
+    {       
+        margin:0px 0px 0px -10px;
+        padding:0;
+    }
+
+    .footer_menu
+    {
+        margin:0;
+        padding:0;
+        justify-self:start;         
+    }
+
+    .footer_menu ul
+    {            
+        margin:0 auto;
+        padding:0;
+    }
+
+    .footer_menu li
+    {
+        list-style:none;
+        padding:10px;
+        font-weight: 600;
+    }
+
+    .footer_menu li a            
+    {
+        margin:0;
+        padding:0;
+        color:#777;
+        text-align:center;
+        text-decoration:none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        transition: all 0.3s ease;
+    }
+
+    .footer_menu li:first-child
+    {
+        margin:0;
+        padding:0px 0px 20px 10px;
+        color:#333;
+        font-weight: 600;
+    }
+
+    
+    .copyright_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    padding: 3em 0em;
+    color: #999;
+    position: relative;
+    font-weight: 400;
+}
+
+    .copyright_border {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+    .copyright_info {
+    grid-column: 1;
+    justify-self:center;
+    position: relative;
+    left: 5em;
+}
+
+    .copyright_terms {
+    grid-column: 2;
+    justify-self:center;
+}
+
+    
